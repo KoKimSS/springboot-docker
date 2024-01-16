@@ -9,4 +9,9 @@ public class MainController {
     String HomeController() {
         return "홈 화면 !!";
     }
+
+    @GetMapping("/user")
+    String UserController() {
+        return "유저 화면";
+    }
 }
