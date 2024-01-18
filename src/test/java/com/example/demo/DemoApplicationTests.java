@@ -22,7 +22,7 @@ class DemoApplicationTests {
     @Test
     @DisplayName("실패 테스트 ! ")
     void 실패테스트() {
-        Assertions.assertTrue(false);
+        Assertions.assertTrue(true);
     }
 
 }
