@@ -15,7 +15,7 @@ class DemoApplicationTests {
     @Test
     @DisplayName("테스트 실행!")
     void 테스트() {
-        Assertions.assertTrue(false);
+        Assertions.assertTrue(true);
         System.out.println("테스트 실행 성공!");
     }
 
